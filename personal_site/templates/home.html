@@ -1,98 +1,199 @@
-{% extends "template.html" %}
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Brian Moses</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../static/css/main.css" />
+		<noscript><link rel="stylesheet" href="../static/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-{% block body %}
-<main>
-    <!-- <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-3 text-center">JEB!</h1>
-        </div>
-    </div> -->
-    <br><br>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">About Me</a></li>
+							<li><a href="#one">Projects</a></li>
+							<li><a href="#two">Skills</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-    <div class="container">
-        <div>
-        </div>
-        <div class = "row">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 fadein">
-                <h2 id = "aboutme" style = "color:white; text-align: center"> About Me </h2><hr class = "hr-white">
-                <img src="/static/images/b.png" class="rounded-circle mx-auto d-block">
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Hi, I'm Brian</h1>
+							<p> I'm a Sophomore at Stony Brook University pursuing a degree in Computer Science. </p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Check out my projects</a></li>
+							</ul>
+						</div>
+					</section>
 
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 fadein">
-                <br><br><p style = "color:white; text-align: center">
-                    Hi, I'm Brian! I'm a Sophomore at Stony Brook University with several years of experience in Computer Science and web development.
-                    I'm looking for an internship or part-time job to gain experience and learn more about the field.
-                </p>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="../static/images/bloons3.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Bloons Tower Defense 7</h2>
+									<p>A clone of the popular game Bloons TD, where you must place monkey towers to defend against increasing waves of bloon attackers.</p>
+									<ul class="actions">
+										<li><a href="http://btd.brianmoses.tech" class="button">Go to Site</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="../static/images/trans4.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Transparency</h2>
+									<p>A site where you can view data about police misconduct in NYC and find information about individual precincts using an interactive map.</p>
+									<ul class="actions">
+										<li><a href="http://transparency.brianmoses.tech" class="button">Go to Site</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
 
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Skills</h2>
+							<p>With over three years' experience in Computer Science I've picked up a variety of skills, especially in web development. </p>
+							<div class="features">
+								<!-- <section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Lorem ipsum amet</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section> -->
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Front-end Development</h3>
+									<p>Front-end formatting with HTML, Javascript, CSS and Bootstrap</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Web Hosting and Routing</h3>
+									<p>Used Apache and Flask/Python to create and host sites on the web </p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Databases</h3>
+									<p>Experience building sites using database technologies like MongoDB and SQL</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Other Skills</h3>
+									<p>Comprehensive experience with GitHub, intermediate proficiency with Java, C, and Linux systems</p>
+								</section>
+								<!-- <section>
+									<span class="icon major fa-gem"></span>
+									<h3>Aliquam urna dapibus</h3>
+									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+								</section> -->
+							</div>
+							<!-- <ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul> -->
+						</div>
+					</section>
 
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p><h5>GitHub:</h5> github.com/bmoses00
+								<br>
+								<h5>Email:</h5> brian.moses@stonybrook.edu
+							</p>
+							<!-- <div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>12345 Somewhere Road #654<br />
+											Nashville, TN 00000-0000<br />
+											USA</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">user@untitled.tld</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(000) 000-0000</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div> -->
+						</div>
+					</section>
 
-            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 "><br><br>
-                <h2 id = "projects" style = "color:white; text-align: center"> Projects </h2><hr class = "hr-white">
-            </div>
-            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 fadein">
-                <div id = "btd" class="hovereffect">
-                    <img class="img-responsive" src="/static/images/bloons1.png" alt="">
-                    <div class="overlay">
-                       <h2>Bloons Tower Defense</h2>
-                       <a class="info" href="btd.brianmoses.tech">A Clone of the popular Bloons TD game, where you must place monkey towers to defend against attacking bloons</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 fadein">
-                <div id = "transparency" class="hovereffect">
-                    <img class="img-responsive" src="/static/images/trans2.png" alt="">
-                    <div class="overlay">
-                       <h2>Transparency</h2>
-                       <a class="info" href="transparency.brianmoses.tech">A site where you can view information about NYPD Police Misconduct and find information about individual precincts</a>
-                    </div>
-                </div>
-            </div>
+			</div>
 
-            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 fadein"><br><br>
-                <h2 id = "skills" style = "color:white; text-align: center"> Skills </h2><hr class = "hr-white">
-            </div>
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
 
-            <div style = "color: white" class="col-lg-10 col-md-10 col-sm-10 col-xs-10 fadein">
-                Extensive experience with web technologies: <br>
+		<!-- Scripts -->
+			<script src="../static/js/jquery.min.js"></script>
+			<script src="../static/js/jquery.scrollex.min.js"></script>
+			<script src="../static/js/jquery.scrolly.min.js"></script>
+			<script src="../static/js/browser.min.js"></script>
+			<script src="../static/js/breakpoints.min.js"></script>
+			<script src="../static/js/util.js"></script>
+			<script src="../static/js/main.js"></script>
 
-                <ul>
-                    <li> Creating sites using Python and Flask</li>
-                    <li> Web hosting with Apache</li>
-                    <li> Experience with Javascript, including popular libraries like d3 and Phaser</li>
-                    <li> Using HTML, CSS and frameworks like Bootstrap</li>
-                    <li> Databse technologies including MongoDB and SQL</li>
-                </ul>
-
-                Other skills: <br>
-
-                <ul>
-                    <li> Basic knowledge of Java and C </li>
-                    <li> Familiarity with Linux systems </li>
-            </div>
-
-            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 fadein"><br><br>
-                <h2 id = "contactme" style = "color:white; text-align: center"> Contact Me </h2><hr class = "hr-white">
-            </div>
-
-            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 fadein">
-                <p style = "color:white">
-                    GitHub: github.com/bmoses00
-                    <br>
-                    Email: brian.moses@stonybrook.edu
-                </p>
-            </div>
-
-        </div><br>
-
-        </div>
-    <br>
-    <br>
-
-</main>
-
-{% endblock body %}
+	</body>
+</html>
